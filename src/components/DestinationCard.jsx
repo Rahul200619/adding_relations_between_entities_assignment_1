@@ -1,4 +1,5 @@
-const DestinationCard = (destination ) => {
+/* eslint-disable react/prop-types */
+const DestinationCard = ({destination} ) => {
     return (
     <div style={{border: "1px solid black", padding: "10px", margin: "10px"}}>
         <img style={{width:'200px'}} src={destination.image} alt={destination.name} />
